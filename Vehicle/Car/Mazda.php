@@ -1,6 +1,9 @@
 <?php	
-namespace Vahicle\Car;
-class Mobil
+namespace Vehicle\Car;
+// include 'Car.php';
+
+
+class Mazda
 {
 	// PROPERTY
 	private $namaMobil;

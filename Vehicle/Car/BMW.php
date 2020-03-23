@@ -1,7 +1,9 @@
 <?php
 namespace Vehicle\Car;
 
-class BMW
+include 'Car.php';
+
+class BMW extends Car
 {
 	public function __construct()
 	{
@@ -9,14 +11,9 @@ class BMW
 		$this->color;
 	}
 	public $brand;
-	public $color;
 	public function setBrandName($x)
 	{
 		$this->brand 	=	$x;
-	}
-	public function setColor($y)
-	{
-		$this->color 	=	$y;
 	}
 	public function output()
 	{
